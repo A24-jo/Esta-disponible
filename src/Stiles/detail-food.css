@@ -1,0 +1,28 @@
+.titulo{
+    margin-left: 600px;
+}
+.cuerpo-detail{
+    align-items: center;
+}
+.padre-detail{
+    display: flex;
+    justify-content: center;
+}
+.img-detail{
+    width: 40vh; 
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+.ingredient{
+    display: flex;
+    width: 400px;
+}
+.detail-inst{
+    display: flex;
+    justify-content: center;
+}
+.instruction{
+    width: 170vh; 
+    padding: 20px;
+}

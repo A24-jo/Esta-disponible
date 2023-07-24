@@ -1,0 +1,86 @@
+.app {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.menu-desplegable {
+  padding: 15px;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.507);
+  color: #f1efef;
+  backdrop-filter: blur(5px);
+}
+
+.principal {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.menu {
+  all: unset;
+  margin-top: 2px;
+  padding: 10px;
+  margin-left: 0px;
+}
+
+.menu:active {
+  transition: 0.3s;
+  transform: scale(0.93);
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.507);
+  backdrop-filter: blur(5px);
+}
+
+.rainbow-hover {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f1efef;
+  background-color: #2B3044;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  position: relative;
+  line-height: 24px;
+  border-radius: 9px;
+  transform-style: preserve-3d;
+  transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  perspective: 600px;
+  transition: transform 0.1s;
+}
+
+.rainbow-hover:active {
+  transition: 0.3s;
+  transform: scale(0.93);
+}
+
+.form-login {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.form-login:active {
+  transition: 0.3s;
+  transform: scale(0.93);
+}
+
+.menupri{
+  margin-left: 15px;
+}
+

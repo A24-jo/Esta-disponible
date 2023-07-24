@@ -1,0 +1,41 @@
+.padre-mod{
+    padding: 30px;
+    margin-top: -500px;
+    margin-left: 1000px; 
+    position: relative;
+    width: 250px;
+    height: 300px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.507);
+    backdrop-filter: blur(4px);
+    border: 2px solid rgb(250, 244, 244);
+    border-radius: 8px;
+}
+
+.label{
+    border-radius: 9px;
+    width: 220px;
+    margin: 10px;
+    background-color:rgba(240, 248, 255, 0.055);
+    border-color: rgb(238, 241, 241);
+}
+
+ .edad{
+    width:40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:rgba(240, 248, 255, 0.055);
+    border-color: rgb(238, 241, 241);
+ }
+
+ .submit{
+    background-color: transparent;
+    border: none;
+    padding: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    color: azure;
+    border-left: 1px rgb(243, 241, 240) solid;
+  }

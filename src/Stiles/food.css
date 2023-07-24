@@ -1,0 +1,48 @@
+.padre-el{
+    display: flex;
+}
+.food-img {
+    width: 50vh;
+    padding: 1px;
+    border-radius: 17px;
+ 
+}
+
+.food-padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 250px;
+    height: 470px;
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    margin: 30px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h4{
+    font-size: 27px;
+}
+
+.favorite-food{
+    position: fixed; 
+    z-index: 2;
+    margin-left: 260px;
+    margin-top: 10px;
+
+}
